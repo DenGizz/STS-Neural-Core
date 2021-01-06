@@ -639,7 +639,7 @@ def minimize_with_lbfgs(sess, net, optimizer, init_img):
      #img_path = os.path.join(out_dir, str(step) + 'step.png')
      img_path = os.path.join(out_dir, 'result.png')
      write_image(img_path, output_img)
-	 SendPictureToService()
+     SendPictureToService()
      i += 1
   
 
